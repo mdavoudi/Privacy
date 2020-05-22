@@ -39,8 +39,7 @@ public class PPCGUI extends javax.swing.JFrame {
             for(int i=0;i<n+2;i++) {
             	c[i]=new BigInteger(k3,new SecureRandom());
             }
-            
-            
+                
             for(int i=0;i<n+2;i++) {
             	if(a[i]!=0) {
             		C[i]=s.multiply(BigInteger.valueOf(a[i]).multiply(alpha).add(c[i])).mod(p);
@@ -86,20 +85,12 @@ public class PPCGUI extends javax.swing.JFrame {
     			
     		}
     		D=D.mod(p);
-
-    		
-    		
-    		
     		E=inverse_s.multiply(D).mod(p);
-    		
     		alphasquare=alpha.multiply(alpha);
     		ab=E.subtract(E.mod(alphasquare)).divide(alphasquare).doubleValue();
-    		
     		Cosine=ab/(Math.sqrt(A)*Math.sqrt(B));
     		
-    	}
-    	
-    	
+    	} 	
 
     @SuppressWarnings("unchecked")
     private void initComponents() {//GEN-BEGIN:initComponents
@@ -437,71 +428,71 @@ public class PPCGUI extends javax.swing.JFrame {
     }//GEN-END:initComponents
 
     private void k1TextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_k1TextFieldActionPerformed
-        // TODO add your handling code here:
+    
     }//GEN-LAST:event_k1TextFieldActionPerformed
 
     private void k2TextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_k2TextFieldActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_k2TextFieldActionPerformed
 
     private void k3TextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_k3TextFieldActionPerformed
-        // TODO add your handling code here:
+    
     }//GEN-LAST:event_k3TextFieldActionPerformed
 
     private void k4TextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_k4TextFieldActionPerformed
-        // TODO add your handling code here:
+     
     }//GEN-LAST:event_k4TextFieldActionPerformed
 
     private void nTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nTextFieldActionPerformed
-        // TODO add your handling code here:
+     
     }//GEN-LAST:event_nTextFieldActionPerformed
 
     private void qTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_qTextFieldActionPerformed
-        // TODO add your handling code here:
+      
     }//GEN-LAST:event_qTextFieldActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+      
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void PTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PTextFieldActionPerformed
-        // TODO add your handling code here:
+  
     }//GEN-LAST:event_PTextFieldActionPerformed
 
     private void sTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sTextFieldActionPerformed
-        // TODO add your handling code here:
+    
     }//GEN-LAST:event_sTextFieldActionPerformed
 
     private void ATextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ATextFieldActionPerformed
-        // TODO add your handling code here:
+
     }//GEN-LAST:event_ATextFieldActionPerformed
 
     private void a_iTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a_iTextField1ActionPerformed
-        // TODO add your handling code here:
+      
     }//GEN-LAST:event_a_iTextField1ActionPerformed
 
     private void BTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTextFieldActionPerformed
-        // TODO add your handling code here:
+  
     }//GEN-LAST:event_BTextFieldActionPerformed
 
     private void biTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_biTextFieldActionPerformed
-        // TODO add your handling code here:
+      
     }//GEN-LAST:event_biTextFieldActionPerformed
 
     private void ETextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ETextFieldActionPerformed
-        // TODO add your handling code here:
+    
     }//GEN-LAST:event_ETextFieldActionPerformed
 
     private void cosTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cosTextFieldActionPerformed
-        // TODO add your handling code here:
+     
     }//GEN-LAST:event_cosTextFieldActionPerformed
 
     private void cosButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cosButtonActionPerformed
-        // TODO add your handling code here:
+    
     }//GEN-LAST:event_cosButtonActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
